@@ -1,0 +1,6 @@
+CREATE TABLE cohort (
+  id SERIAL PRIMARY KEY,
+  name VARCHAR(50),
+  start_date DATE,
+  end_date DATE,
+);
